@@ -6,6 +6,10 @@ p {
     margin-bottom: 8px; 
 }
 
+.navbar { 
+    font-family: Georgia !important; 
+}
+
 .jumbotron{
     padding: 35px;
     margin-top: 0px;
