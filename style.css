@@ -1,5 +1,4 @@
-.jumbosky{
-	background-image: url('sky1.jpg');
+.jumbotron{
 	background-size: cover;
     background-repeat: no-repeat;
     padding: 35px;
