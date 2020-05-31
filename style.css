@@ -9,3 +9,7 @@
 body {
     padding: 0;
 }
+
+#navigation,.navbar .navbar-default{
+    background-image: url("images/sky1.jpg");
+}
