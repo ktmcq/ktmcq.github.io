@@ -18,45 +18,40 @@ p {
     background-repeat: no-repeat;
 } 
 
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #838383;
+    font-family: Georgia !important;
+    font-size: .8em;
+    color: #FFFFFF;
+}
 
-/* css for image carousel */ 
-#carousel {
-
-    /*margin-top: 50px;*/
-    background-color: #F0F8FF;
-    
+/* image overlay */
+.image {
+    position:relative;
+    display:inline-block;
+ }
+ .overlay {
+    display:none;
+ }
+ .image:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+ 
+    /* All other styling - see example */
+    img {
+       vertical-align:top;
     }
-    
-    .carousel {
-      height: 400px;
-      margin-bottom: 0px;
-    background-color: #F0F8FF;
-    }
-    /* Since positioning the image, we need to help out the caption */
-    .carousel-caption {
-      z-index: 10;
-    }
-    
-    /* Declare heights because of positioning of img element */
-    .carousel .item {
-      width: 100%;
-      height: 400px;
-      background-color: #F0F8FF;
-    }
-    .carousel-inner > .item > img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 400px;
-    background-color: #F0F8FF; 
-    }
-    
-    @media (min-width: 500px) {
-      .carousel-caption p {
-              margin-bottom: 0px;
-              font-size: 21px;
-              line-height: 1.4;
-      }
-    }
-    
+ }
