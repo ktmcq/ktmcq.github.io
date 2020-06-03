@@ -59,11 +59,30 @@ p {
     }
  }
 
+ /* jumbotron overlay on mouse hover */
+ .hovjumbo { position:relative;}
+ .hovjumbo:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+ 
+    img {
+       vertical-align: top;
+    }
+ }
 
+ /* automatic column adjusting */
  article {
-    -webkit-columns: 2 600px;
-    -moz-columns: 2 600px;
-    columns: 2 600px;
+    -webkit-columns: 2 500px;
+    -moz-columns: 2 500px;
+    columns: 2 500px;
     -webkit-column-gap: 2em;
     -moz-column-gap: 2em;
     column-gap: 2em;
