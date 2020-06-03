@@ -49,6 +49,12 @@ p {
     transform: translate(-50%, -50%);
 }
 
+.centerme {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* image overlay on mouse hover */
 .image {
     position:relative;
