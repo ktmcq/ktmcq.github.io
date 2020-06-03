@@ -37,6 +37,7 @@ p {
 .image {
     position:relative;
     display:inline-block;
+    margin-bottom: 2em;
  }
  .overlay {
     display:none;
@@ -57,3 +58,13 @@ p {
        vertical-align: top;
     }
  }
+
+
+ article {
+    -webkit-columns: 2 600px;
+    -moz-columns: 2 600px;
+    columns: 2 600px;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+  }
