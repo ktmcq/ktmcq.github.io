@@ -78,13 +78,21 @@
                                 Bootstrap components. The Google Maps API is utlizied to let users interactively find available pets near them, and 
                                 two JSON files in the back end are used to store data. Check out the user guide for screenshots of the site in action! 
                             </p>
+                            <!-- MODAL 1-->
                             <center>
-                                <a href="pdfs/FurryFriendsAdoption.pdf" target="_blank" class="btn btn-outline-dark" role="button">User Guide</a>
+                                <button type="button" id="myBtn1" class="btn btn-outline-dark">User Guide</button>
                             </center>
-
-
-                            <iframe src="pdfs/FurryFriendsAdoption.pdf" width="100%" height="500px">
-                            </iframe>
+                            <div id="myModal1" class="modal text-right">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <center>
+                                        <div class="container">
+                                        <iframe src="pdfs/FurryFriendsAdoption.pdf" frameborder="0" class="video"></iframe>
+                                        </div>
+                                    </center>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <br>  
@@ -116,15 +124,16 @@
                             <p class="card-text">I created this project in Autodesk Maya...</p>
                             <!-- MODAL 4-->
                             <center>
-                                <button type="button" id="myBtn1" class="btn btn-outline-dark">Video Demo</button>
+                                <button type="button" id="myBtn2" class="btn btn-outline-dark">Video Demo</button>
                             </center>
-                            <!-- The Modal -->
-                            <div id="myModal1" class="modal text-right">
+                            <div id="myModal2" class="modal text-right">
                                 <!-- Modal content -->
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
                                     <center>
-                                        <iframe width="100%" height="700" src="https://www.youtube.com/embed/_ackPozcCqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="container">
+                                        <iframe src="https://www.youtube.com/embed/_ackPozcCqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+                                        </div>
                                     </center>
                                 </div>
                             </div>
