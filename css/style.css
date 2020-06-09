@@ -11,6 +11,32 @@ p {
     font-family: Georgia !important; 
 }
 
+/* BUTTON COLORS */
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #b6b6b6 !important;
+    border-color: #b6b6b6;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-family:Georgia;
+    box-shadow: none !important;
+}
+.btn-primary:hover {
+    background-color: #838383 !important;
+    border-color: #838383;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-family:Georgia;
+    box-shadow: none !important;
+}
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #838383 !important;
+    border-color: #838383;
+    color: #FFFFFF;
+    border-radius: 0px;
+    box-shadow: none !important;
+    outline: #838383;
+}
+
 .jumbotron{
     padding: 35px;
     margin-top: 0px;
