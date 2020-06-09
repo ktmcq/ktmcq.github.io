@@ -83,16 +83,6 @@ p {
     }
  }
 
- /* automatic column adjusting */
- article {
-    -webkit-columns: 2 500px;
-    -moz-columns: 2 500px;
-    columns: 2 500px;
-    -webkit-column-gap: 2em;
-    -moz-column-gap: 2em;
-    column-gap: 2em;
-}
-
 /* MODAL */
 /* The Modal (background) */
 .modal {
