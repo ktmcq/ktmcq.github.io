@@ -12,7 +12,7 @@ p {
 }
 
 /* BUTTON COLORS */
-.btn-primary, .btn-primary:active, .btn-primary:visited {
+.btn-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary.focus {
     background-color: #b6b6b6 !important;
     border-color: #b6b6b6;
     color: #FFFFFF;
@@ -28,7 +28,7 @@ p {
     font-family:Georgia;
     box-shadow: none !important;
 }
-.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus, .btn-secondary.focus {
     background-color: #838383 !important;
     border-color: #838383;
     color: #FFFFFF;
